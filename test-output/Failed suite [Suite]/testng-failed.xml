@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="jenkinsTest.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="jenkins.Testinggg">
+        <methods>
+          <include name="insert"/>
+          <include name="update"/>
+          <include name="delete"/>
+          <include name="select"/>
+          <include name="init"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- jenkins.Testinggg -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

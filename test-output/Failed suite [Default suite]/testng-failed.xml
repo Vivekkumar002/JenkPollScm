@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="jenkinsTest.Testinggg">
+        <methods>
+          <include name="insert"/>
+          <include name="update"/>
+          <include name="delete"/>
+          <include name="cleanup"/>
+          <include name="init"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- jenkinsTest.Testinggg -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
