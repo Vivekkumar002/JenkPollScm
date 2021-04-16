@@ -26,8 +26,7 @@ public class Testinggg {
 	@Test(dependsOnMethods = "insert", groups = "tests")
 	public void select() {
 		System.out.println("selecting demo data");
-		System.out.println("again");
-// 		Assert.assertTrue(false);
+ 		Assert.assertTrue(false);
 	}
 
 	@Test(dependsOnMethods = "select", groups = "tests")
