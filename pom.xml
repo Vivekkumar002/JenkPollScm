@@ -29,7 +29,6 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>C:\Users\FLOPPY\Automation\jenkinsTest\testng.xml</suiteXmlFile>
-						<suiteXmlFile>C:\Users\FLOPPY\Automation\jenkinsTest\test-output\testng-failed.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
